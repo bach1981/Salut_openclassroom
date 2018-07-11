@@ -45,6 +45,6 @@ text-align: center;
 </style>
 8-   Tracker notre fichier index.html avec la commande git add ==> git add index.html
 9-   Vérifier le statut avec git sttus  (le nom est vert)
-10-  Créer un commit avec la commande git commit --message"Déplacer texte"
+10-  Créer quatres commit avec la commande git commit --message"Déplacer texte"
 
 
