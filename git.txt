@@ -1,0 +1,100 @@
+  pwd
+/c/Users/bach8/Documents/Salut
+
+bach8@LAPTOP-U9LI7JLL MINGW64 ~/Documents/Salut (master)
+$ ls
+git.txt  git_p2_activité.txt  README.md  salut.html
+
+bach8@LAPTOP-U9LI7JLL MINGW64 ~/Documents/Salut (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/bach8/Documents/Salut/.git/
+
+bach8@LAPTOP-U9LI7JLL MINGW64 ~/Documents/Salut (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    hi.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        README.md
+        git.txt
+        "git_p2_activite\314\201.txt"
+        salut.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+bach8@LAPTOP-U9LI7JLL MINGW64 ~/Documents/Salut (master)
+$ git add salut.html
+warning: LF will be replaced by CRLF in salut.html.
+The file will have its original line endings in your working directory.
+
+bach8@LAPTOP-U9LI7JLL MINGW64 ~/Documents/Salut (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   salut.html
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    hi.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        README.md
+        git.txt
+        "git_p2_activite\314\201.txt"
+
+
+bach8@LAPTOP-U9LI7JLL MINGW64 ~/Documents/Salut (master)
+$ git commit --m "modif texte"
+[master 6249b51] modif texte
+ 1 file changed, 32 insertions(+)
+ create mode 100644 salut.html
+
+bach8@LAPTOP-U9LI7JLL MINGW64 ~/Documents/Salut (master)
+$ git log
+commit 6249b51915173854fffd2da1867244b6c0bdc12f (HEAD -> master)
+Author: bach <bach.81@hotmail.fr>
+Date:   Thu Jul 12 02:05:57 2018 +0200
+
+    modif texte
+
+commit e2cabfa7cd2c816f819980944bfc584bc32cf5f1
+Author: bach <bach.81@hotmail.fr>
+Date:   Wed Jul 11 02:58:19 2018 +0200
+
+     modification texte
+
+commit a43ee9a5b0436eb314326a9bf3798761cfda4899
+Author: bach <bach.81@hotmail.fr>
+Date:   Wed Jul 11 02:54:16 2018 +0200
+
+    rajout d'une bande
+
+commit 1cfd3d229d8930462cc09ed156931ecf3047eb6d
+Author: bach <bach.81@hotmail.fr>
+Date:   Wed Jul 11 02:42:55 2018 +0200
+
+    rajout question
+
+commit 48ef02ea739ebf6f8bbb0c30c03c63fc5f711e35
+Author: bach <bach.81@hotmail.fr>
+Date:   Wed Jul 11 02:20:28 2018 +0200
+
+    déplacer texte
+
+bach8@LAPTOP-U9LI7JLL MINGW64 ~/Documents/Salut (master)
+$ ^C
+
+bach8@LAPTOP-U9LI7JLL MINGW64 ~/Documents/Salut (master)
+$
